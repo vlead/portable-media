@@ -1,7 +1,7 @@
 # list of labs on portable media
 # sep-2014
 
-* ISO path - [[portable-media.vlabs.ac.in/livecd-25-labs.iso][iso-25-labs]]
+* ISO path - [[http://portable-media.vlabs.ac.in/livecd-25-labs.iso]]
 
 
 | S.No | Lab Name                                  | Institute Name |   |
