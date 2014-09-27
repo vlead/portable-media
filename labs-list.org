@@ -1,0 +1,38 @@
+# list of labs on portable media
+# sep-2014
+
+* ISO path - [[portable-media.vlabs.ac.in/livecd-25-labs.iso][iso-25-labs]]
+
+
+| S.No | Lab Name                                  | Institute Name |   |
+|------+-------------------------------------------+----------------+---|
+|    1 | Data Structure                            | IIIT-H         |   |
+|    2 | Computer Programming                      | IIIT-H         |   |
+|    3 | Problem Solving                           | IIIT-H         |   |
+|    4 | Speech Signal Processing                  | IIIT-H         |   |
+|    5 | Cryptography Lab                          | IIIT-H         |   |
+|    6 | Computer Organization And Architecture    | IIIT-H         |   |
+|    7 | Virtual Power Lab                         | COEP           |   |
+|    8 | Electrical Machines                       | COEP           |   |
+|    9 | Sensor Modelling & Simulation             | COEP           |   |
+|   10 | Hydraulics and Fluid Mechanics            | IIIT-H         |   |
+|   11 | Fab Lab                                   | COEP           |   |
+|   12 | Vibration and Acoustics                   | COEP           |   |
+|   13 | Chemical Engineering                      | IITB           |   |
+|   14 | Soil Mechanics and Foundation Engineering | IIIT-H         |   |
+|   15 | Traffic Engineering                       | IITB           |   |
+|   16 | Virtual Microwave Lab                     | Dayalbagh      |   |
+|   17 | Virtual Astrophysics Lab                  | Dayalbagh      |   |
+|   18 | Colloid Surface Chemistry                 | COEP           |   |
+|   19 | Quantum Chemistry                         | COEP           |   |
+|   20 | Circular Dichroism Virtual Lab            | COEP           |   |
+|   21 | Molecular Absorption Spectroscopy         | COEP           |   |
+|   22 | Digital Logic Design                      | IIIT-H         |   |
+|   23 | Engineering Electro Magnetics lab         | IIIT-H         |   |
+|   24 | Bioreactor Modelling and Simulation lab   | COEP           |   |
+|   25 | Biomedical and Signal Processing lab      | COEP           |   |
+
+
+ 
+	
+ 
