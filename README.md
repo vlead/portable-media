@@ -4,3 +4,5 @@ The html files are modified, so that all the external links are redirected to th
 or are condensed.
 
 25-labs folder contains the html pages for the 25 labs.
+
+Detailed procedure is documented here: https://github.com/vlead/portable-media/blob/master/CustomizedLiveISO.pdf
