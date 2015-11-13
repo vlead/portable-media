@@ -1,0 +1,90 @@
+#+TITLE:     Portable Virtual Labs documentation
+#+DATE:      2015-11-13 Friday
+
+* Introduction
+   This document describes implementation of Virtual Labs on Portable
+   media . 
+
+* Requirements
+** System requirements
+   - OS: UBUNTU 12.04 64bit
+   - Minimum 8GB RAM.
+   - Minimum Disk space of 50GB.
+   - Quad core processor recommended.
+   - A 16GB USB stick.
+** Software requirements
+   - UBUNTU image: ubuntu­13.10­desktop­amd64.iso
+   - Ubuntu Customization Kit (To make the customized iso)
+   - Unetbootin (To make a bootable pendrive of the iso) 
+
+* Procedure
+  - Download the base image, eg. ubuntu­13.10­desktop­amd64.iso.
+ 
+  - Start ubuntu customization kit. 
+
+  - Choose the language as ‘en’ for English. 
+
+  - After that, choose desktop environment as gnome.(as shown in below
+    screen shot)
+  [[./1.png][Screen shot1]]
+
+  - Then select the base image, which you downloaded in step one. 
+
+  - Choose ‘yes’ for the option Do you want to customize the CD manually 
+    during building (using packages).  
+
+  - Select ‘yes’ on the next window. Do you want to delete all windows
+    related files from the CD.
+
+  - Select ‘yes’ on the next window. Do you want to generate a hybrid
+    image(ISO/USB).
+
+  - Your new iso image will be created in
+    ~/tmp/remaster­new­files/livecd.iso 
+    Click OK to start the process.
+  
+  - The terminal will ask for the password. 
+  [[./2.png][Screen shot2]] 
+
+  The files will be extracted from the base image, and it will
+  mount the image. This step will take some time.
+ 
+  - Once it extracts all the files, following window pops up, select
+    the option “Run console application”. 
+  [[./3.png][Screen shot3]] 
+
+  - The new terminal will open up, type  
+        apt­get install php5 apache2 
+    to install php and apache packages in your customized CD. 
+  [[./4.png][Screen shot4]]
+  
+  - Then also install firefox, with following command on the terminal 
+                   "apt­get install firefox" 
+
+  - Now we need to install the flash plugin in firefox. Download the
+    file "install_flash_player_11_linux.x86_64.tar.gz" from official
+    adobe’s website or from any site hosting it.
+
+  - Then extract the files from above .gz file. So from the directory
+    where ‘libflashplayer.so’ file is located, copy it to
+    ~/tmp/remaster­root/usr/lib/mozilla/plugins/
+  [[./5.png][Screen shot5]]
+
+  - Now we have apache, php, firefox and flash installed in our
+    CD. Next we need to copy the labs to ~/tmp/remaster­root/var/www/
+    and check for the read, write and execute permissions on the labs
+    being copied.  Else change them to 775 by using below command 
+    "chmod 775 ­R cse01/"
+
+  - After copying all the required labs, exit from the terminal. Which
+    will bring you to following window, select continue building and
+    press OK
+ 
+  [[./6.png][Screen shot6]]
+
+  Your livecd.iso will be created and you can find it in ~/tmp/remaster­new­files 
+** Create Bootable Pendrive from ISO
+  - To create the bootable pendrive from above iso.
+  - Insert a 8 GB USB stick and start the unetbootin tool.
+  - And select your customized image i.e. livecd.iso.
+  - rest of the steps are self explanatory.
