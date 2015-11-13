@@ -4,3 +4,5 @@ The html files are modified, so that all the external links are redirected to th
 or are condensed.
 
 25-labs folder contains the html pages for the 25 labs.
+
+Procedure to create portable Virtual Labs on USB is documented in ./index.org
