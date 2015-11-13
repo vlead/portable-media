@@ -45,6 +45,7 @@
   
   - The terminal will ask for the password. 
   [[./2.png][Screen shot2]] 
+
   The files will be extracted from the base image, and it will
   mount the image. This step will take some time.
  
@@ -81,4 +82,9 @@
  
   [[./6.png][Screen shot6]]
 
-Your livecd.iso will be created and you can find it in ~/tmp/remaster­new­files 
+  Your livecd.iso will be created and you can find it in ~/tmp/remaster­new­files 
+** Create Bootable Pendrive from ISO
+  - To create the bootable pendrive from above iso.
+  - Insert a 8 GB USB stick and start the unetbootin tool.
+  - And select your customized image i.e. livecd.iso.
+  - rest of the steps are self explanatory.
